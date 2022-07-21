@@ -1,0 +1,176 @@
+/* GOOGLE FONTS */
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap";
+
+/* RESET */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    color: #2C3E50;
+}
+
+.tituloPrincipal {
+    display: flex;
+    align-items: center;
+    background-color: #FADBD8;
+    justify-content: space-evenly;
+    height: 100px;
+    text-transform: uppercase;
+    font-size: 80px;
+
+}
+
+.colorNavbar {
+    background-color: #FADBD8;
+}
+
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Mono", monospace;
+    list-style-type: none;
+    text-decoration: none;
+    width: auto;
+    font-size: large;
+}
+
+a {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #2C514C;
+}
+
+.sub {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    color: #2C514C;
+}
+
+.sub:hover,
+.sub:focus {
+    background-size: 100% 2px;
+    color: black;
+}
+
+/* SECCIÓN PRODUCTOS */
+
+.container{
+    margin-top: 10rem;
+}
+
+#enlace{
+    display: flex;
+    justify-content: center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-cart{
+    width: 100%;
+}
+
+.agregar-carrito{
+    display: flex;
+    justify-content: center;    
+}
+
+.centrado-cart{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #2C3E50;
+}
+
+
+.show{
+    display: flex;
+    justify-content: center;
+}
+
+#carrito{
+    width: 50%;
+}
+
+/* SECCIÓN CONTACTO */
+#contacto {
+    margin-bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic;
+}
+
+h3 {
+    color: #2C514C;
+    font-family: "Roboto Mono", monospace;
+    font-style: italic solid;
+    padding: 10px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+}
+
+.campo {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.botonForm {
+    color: #2C3E50;
+    background-color: #FADBD8;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:200px;
+    margin: auto;
+}
+
+.instagram {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none; 
+}
